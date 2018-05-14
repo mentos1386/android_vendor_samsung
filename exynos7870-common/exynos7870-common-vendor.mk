@@ -28,9 +28,3 @@ PRODUCT_COPY_FILES += \
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
-
-#==/ NFC /==#
-PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos7870-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
-    vendor/samsung/exynos7870-common/proprietary/lib/hw/nfc_nci.default.so:system/vendor/lib/hw/nfc_nci.default.so \
-    vendor/samsung/exynos7870-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin
