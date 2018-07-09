@@ -106,6 +106,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/j5y17lte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/j5y17lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
+	vendor/samsung/j5y17lte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+	vendor/samsung/j5y17lte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/j5y17lte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/j5y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j5y17lte/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
