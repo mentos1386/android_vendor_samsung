@@ -63,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/j7y17lte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/samsung/j7y17lte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/camera.vendor.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -138,6 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/j7y17lte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/j7y17lte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/j7y17lte/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
@@ -151,3 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
     
+# Create Mali links for Vulkan and OpenCL
+PRODUCT_PACKAGES += libGLES_mali
+
