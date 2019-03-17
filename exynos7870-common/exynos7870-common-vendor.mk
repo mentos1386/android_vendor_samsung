@@ -33,3 +33,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7870-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/exynos7870-common/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/exynos7870-common/proprietary/lib/libmpp.so:system/lib/libmpp.so
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/samsung/exynos7870-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/samsung/exynos7870-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so
+
+# Create Mali links for Vulkan and OpenCL
+PRODUCT_PACKAGES += libGLES_mali
